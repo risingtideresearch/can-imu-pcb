@@ -8558,7 +8558,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "09488a26-bf04-47c0-896d-9caab2aa311c")
 		(property "Reference" "H1"
@@ -8820,6 +8820,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C15849"
+			(at 162.56 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b2ed6cdb-5161-4084-ae48-ca1a447cb175")
 		)
@@ -8900,6 +8909,15 @@
 			)
 		)
 		(property "Digikey Part Number" "1276-1946-1-ND"
+			(at 118.11 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C15849"
 			(at 118.11 25.4 0)
 			(effects
 				(font
@@ -9183,6 +9201,15 @@
 			)
 		)
 		(property "Digikey Part Number" "296-TCAN3414DRCT-ND"
+			(at 204.47 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C22396693"
 			(at 204.47 140.97 0)
 			(effects
 				(font
@@ -9491,6 +9518,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C46472327"
+			(at 127 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "b315ce66-8d45-4118-914f-e54e1cc3c8bb")
 		)
@@ -9588,6 +9624,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C15849"
+			(at 99.06 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c85cd1f8-3225-45da-92ef-1032c8cd3282")
 		)
@@ -9668,6 +9713,15 @@
 			)
 		)
 		(property "Digikey Part Number" "1276-1946-1-ND"
+			(at 90.17 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C15849"
 			(at 90.17 25.4 0)
 			(effects
 				(font
@@ -9969,7 +10023,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "43e76b72-a00e-409b-91c8-597ccd5b7d2d")
 		(property "Reference" "J2"
 			(at 140.97 20.828 0)
@@ -10384,6 +10438,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C2896636"
+			(at 27.94 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A9"
 			(uuid "046ecfff-ce21-48db-8bd2-060946769341")
 		)
@@ -10515,6 +10578,15 @@
 			)
 		)
 		(property "Digikey Part Number" "311-100HRCT-ND"
+			(at 162.56 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C105588"
 			(at 162.56 30.48 90)
 			(effects
 				(font
@@ -10677,6 +10749,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C265085"
+			(at 262.89 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "8f1a7aca-84b7-4ecc-b154-f4b4fd13c497")
 		)
@@ -10775,6 +10856,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C3312524"
+			(at 161.29 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "73cf7669-2d1d-4efd-83e8-d2b0f56155ea")
 		)
@@ -10844,6 +10934,33 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 128KB flash, 32KB RAM, 170 MHz, 1.71-3.6V, 38 GPIO, LQFP48"
+			(at 49.53 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "497-19473-ND"
+			(at 49.53 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part Number" "STM32G431CBT6"
+			(at 49.53 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C529355"
 			(at 49.53 60.96 0)
 			(effects
 				(font
@@ -11174,6 +11291,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C15849"
+			(at 218.44 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d8dcd069-2cc6-407d-8ec2-ddd16d08b7bf")
 		)
@@ -11260,6 +11386,15 @@
 			)
 		)
 		(property "Digikey Part Number" "311-100HRCT-ND"
+			(at 162.56 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C105588"
 			(at 162.56 25.4 90)
 			(effects
 				(font
@@ -11432,6 +11567,15 @@
 		)
 		(property "Digikey Part Number" "SMAJ17A-FDICT-ND"
 			(at 251.46 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C134963"
+			(at 251.46 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11671,6 +11815,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "311-47.0KHRCT-ND"
+			(at 134.62 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part Number" "RC0603FR-0747KL"
+			(at 134.62 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25819"
+			(at 134.62 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d29db307-525d-4d73-b1a0-d9a17a149f9d")
 		)
@@ -11757,6 +11928,15 @@
 			)
 		)
 		(property "Digikey Part Number" "311-100HRCT-ND"
+			(at 162.56 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C105588"
 			(at 162.56 35.56 90)
 			(effects
 				(font
@@ -11901,6 +12081,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "311-47.0KHRCT-ND"
+			(at 109.22 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part Number" "RC0603FR-0747KL"
+			(at 109.22 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25819"
+			(at 109.22 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3dc54d75-9d08-4479-88b9-7c440c41bb10")
 		)
@@ -11923,7 +12130,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7fa1e51e-e4fb-45f0-bf94-1f942eb1fee0")
 		(property "Reference" "H2"
@@ -12101,6 +12308,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "1276-3047-1-ND"
+			(at 232.41 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part Number" "CL31A226KAHNNNE"
+			(at 232.41 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C12891"
+			(at 232.41 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0ee9f956-e9ac-42b7-830a-ef6ef3ada384")
 		)
@@ -12181,6 +12415,15 @@
 			)
 		)
 		(property "Digikey Part Number" "1276-1946-1-ND"
+			(at 107.95 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C15849"
 			(at 107.95 25.4 0)
 			(effects
 				(font
@@ -12343,7 +12586,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "92429871-2b44-4e74-b53b-7361af16f102")
 		(property "Reference" "H3"
@@ -12464,6 +12707,15 @@
 			)
 		)
 		(property "Digikey Part Number" "1727-PESD2CANFD24UU-QXCT-ND"
+			(at 237.49 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C5278878"
 			(at 237.49 151.13 0)
 			(effects
 				(font
@@ -12757,6 +13009,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C135262"
+			(at 228.6 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fa50d147-4bce-4b76-8e74-9e0af37a3265")
 		)
@@ -12843,6 +13104,15 @@
 			)
 		)
 		(property "Digikey Part Number" "311-100HRCT-ND"
+			(at 162.56 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C105588"
 			(at 162.56 33.02 90)
 			(effects
 				(font
@@ -12946,6 +13216,15 @@
 			)
 		)
 		(property "Digikey Part Number" "CUS10S30H3FCT-ND"
+			(at 53.34 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C146335"
 			(at 53.34 149.86 0)
 			(effects
 				(font
@@ -13136,6 +13415,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C15849"
+			(at 274.32 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e7a66c94-5095-4c74-87ac-5c59f69be2be")
 		)
@@ -13158,7 +13446,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d3f77ddd-774e-433b-9389-e7bcdf63a824")
 		(property "Reference" "H4"
@@ -13288,6 +13576,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C15850"
+			(at 182.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9de2bb00-1dcb-4169-adc4-29f47c33865b")
 		)
@@ -13350,6 +13647,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 247.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part Number" "M50-3110542"
+			(at 247.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "952-2342-ND"
+			(at 247.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C6659241"
 			(at 247.65 88.9 0)
 			(effects
 				(font
@@ -13511,6 +13835,33 @@
 			)
 		)
 		(property "Description" "500mA Step-Down Converter with DCS-Control, fixed 3.3V output, 3-17V input voltage, WSON-8"
+			(at 209.55 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "296-39449-1-ND"
+			(at 209.55 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part Number" "TPS62172DSGR"
+			(at 209.55 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C59873"
 			(at 209.55 38.1 0)
 			(effects
 				(font
