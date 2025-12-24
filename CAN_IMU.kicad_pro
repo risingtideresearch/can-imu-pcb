@@ -144,7 +144,7 @@
         "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -507,7 +507,7 @@
       "idf": "",
       "netlist": "",
       "plot": "",
-      "pos_files": "",
+      "pos_files": "output",
       "specctra_dsn": "",
       "step": "CAN_IMU.step",
       "svg": "",
@@ -771,7 +771,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -788,6 +788,10 @@
     [
       "2e846557-cee3-4c89-9f29-2507d4a72f82",
       "Root"
+    ],
+    [
+      "6a4a12f3-0351-4bff-93b3-4e1b6c80f17e",
+      "Onboard IMU"
     ]
   ],
   "text_variables": {}

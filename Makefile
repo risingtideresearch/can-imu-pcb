@@ -28,7 +28,8 @@ drc:
 gerbers: $(OUTDIR) drc
 	kicad-cli pcb export gerbers -o $(OUTDIR) --no-protel-ext \
 		-l $(GERBER_LAYERS) $(PCB_FILE)
-	cd $(OUTDIR); zip $(PROJECT_NAME)_$(VERSION)_gerbers.zip *.gbr $(PROJECT_NAME)-job.gbrjob
+	kicad-cli pcb export drill -o $(OUTDIR) $(PCB_FILE)
+	cd $(OUTDIR); zip $(PROJECT_NAME)_$(VERSION)_gerbers.zip *.gbr *.drl $(PROJECT_NAME)-job.gbrjob:
 
 .PHONY: pos
 pos: $(OUTDIR) drc $(PCB_FILE)
