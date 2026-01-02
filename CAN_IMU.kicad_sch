@@ -6101,7 +6101,7 @@
 		(uuid 98926eb8-6067-4f31-9749-7872a0099918)
 	)
 	(rectangle
-		(start 143.51 170.18)
+		(start 151.13 170.18)
 		(end 175.26 196.85)
 		(stroke
 			(width 0)
@@ -6114,7 +6114,7 @@
 	)
 	(rectangle
 		(start 86.36 153.67)
-		(end 142.24 196.85)
+		(end 149.86 196.85)
 		(stroke
 			(width 0)
 			(type dash)
@@ -6159,9 +6159,9 @@
 		)
 		(uuid "00306042-c2f0-4cba-9db8-6862c42f02c4")
 	)
-	(text "Mounting holes for enclosure"
+	(text "Mounting holes\nfor enclosure"
 		(exclude_from_sim no)
-		(at 144.78 172.212 0)
+		(at 154.178 172.212 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6237,7 +6237,7 @@
 	)
 	(text "CAN_RX is shared with \nboot0, so it is gated\nuntil software boots"
 		(exclude_from_sim no)
-		(at 115.062 166.37 0)
+		(at 112.522 162.814 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6399,10 +6399,22 @@
 		(uuid "5de079a0-fd46-4b7f-a67e-dd7e7d8fb489")
 	)
 	(junction
+		(at 123.19 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61ea63fe-3fac-4e14-9fa0-3f472e9568e2")
+	)
+	(junction
 		(at 262.89 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64df3d7e-c616-44db-a4d6-468ccf801928")
+	)
+	(junction
+		(at 104.14 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f1c0141-8d59-4694-bcbf-d1f5ccc518fe")
 	)
 	(junction
 		(at 44.45 19.05)
@@ -6665,6 +6677,16 @@
 			(type default)
 		)
 		(uuid "122ad672-24a1-4471-b818-3d611d6f7d67")
+	)
+	(wire
+		(pts
+			(xy 124.46 177.8) (xy 123.19 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1274ed7a-c56e-406d-acdb-8865aae1d2e4")
 	)
 	(wire
 		(pts
@@ -7538,6 +7560,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 187.96) (xy 123.19 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "747b148a-9d07-4db5-ad30-3fe9a4da457b")
+	)
+	(wire
+		(pts
 			(xy 17.78 88.9) (xy 31.75 88.9)
 		)
 		(stroke
@@ -7628,7 +7660,17 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 165.1) (xy 107.95 167.64)
+			(xy 104.14 187.96) (xy 123.19 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "867b4d57-8e97-4e15-8499-e9210ccc9a35")
+	)
+	(wire
+		(pts
+			(xy 104.14 165.1) (xy 104.14 167.64)
 		)
 		(stroke
 			(width 0)
@@ -7938,6 +7980,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 177.8) (xy 148.59 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1a3ab13-ff3e-4b2e-8e47-958c93e60d11")
+	)
+	(wire
+		(pts
 			(xy 237.49 49.53) (xy 229.87 49.53)
 		)
 		(stroke
@@ -8078,6 +8130,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 177.8) (xy 123.19 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3bdd26b-676d-469d-b069-4c0b8b32918a")
+	)
+	(wire
+		(pts
 			(xy 233.68 138.43) (xy 233.68 146.05)
 		)
 		(stroke
@@ -8118,7 +8180,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 157.48) (xy 113.03 157.48)
+			(xy 95.25 157.48) (xy 109.22 157.48)
 		)
 		(stroke
 			(width 0)
@@ -8348,7 +8410,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 177.8) (xy 97.79 177.8)
+			(xy 88.9 177.8) (xy 93.98 177.8)
 		)
 		(stroke
 			(width 0)
@@ -8448,7 +8510,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 187.96) (xy 107.95 189.23)
+			(xy 104.14 187.96) (xy 104.14 189.23)
 		)
 		(stroke
 			(width 0)
@@ -8598,7 +8660,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 167.64) (xy 113.03 157.48)
+			(xy 109.22 167.64) (xy 109.22 157.48)
 		)
 		(stroke
 			(width 0)
@@ -8608,7 +8670,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 177.8) (xy 140.97 177.8)
+			(xy 121.92 177.8) (xy 123.19 177.8)
 		)
 		(stroke
 			(width 0)
@@ -8997,7 +9059,7 @@
 		(uuid "ae05d989-ae8f-4b68-b50e-62d478c914a6")
 	)
 	(label "CAN_RX-BOOT0"
-		(at 140.97 177.8 180)
+		(at 148.59 177.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9303,17 +9365,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 152.4 177.8 0)
+		(lib_id "Device:R_Small_US")
+		(at 123.19 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "09488a26-bf04-47c0-896d-9caab2aa311c")
-		(property "Reference" "H1"
-			(at 154.94 176.5299 0)
+		(dnp no)
+		(uuid "046e679c-c7e5-4f4a-91fd-e4381f2c4b7a")
+		(property "Reference" "R15"
+			(at 124.968 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9321,8 +9382,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 154.94 179.0699 0)
+		(property "Value" "47k"
+			(at 124.968 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9330,8 +9391,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 152.4 177.8 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 123.19 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9340,7 +9401,104 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 177.8 0)
+			(at 123.19 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 123.19 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "311-47.0KHRCT-ND"
+			(at 123.19 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part Number" "RC0603FR-0747KL"
+			(at 123.19 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25819"
+			(at 123.19 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "257153b3-6b4b-45ca-a401-8ca97c3aadc5")
+		)
+		(pin "1"
+			(uuid "3162d376-c0d1-4a61-af71-6f76b4c5bf49")
+		)
+		(instances
+			(project "CAN_IMU"
+				(path "/2e846557-cee3-4c89-9f29-2507d4a72f82"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 157.48 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "09488a26-bf04-47c0-896d-9caab2aa311c")
+		(property "Reference" "H1"
+			(at 160.02 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 160.02 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 157.48 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9349,7 +9507,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 152.4 177.8 0)
+			(at 157.48 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10134,7 +10292,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 189.23 0)
+		(at 104.14 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10142,7 +10300,7 @@
 		(dnp no)
 		(uuid "25f238e1-b19c-4433-a967-e3ae7547c68a")
 		(property "Reference" "#PWR010"
-			(at 107.95 195.58 0)
+			(at 104.14 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10151,7 +10309,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 193.294 0)
+			(at 104.14 193.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10159,7 +10317,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 189.23 0)
+			(at 104.14 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10168,7 +10326,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 189.23 0)
+			(at 104.14 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10177,7 +10335,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 189.23 0)
+			(at 104.14 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10199,7 +10357,7 @@
 	)
 	(symbol
 		(lib_id "RJMP_IC:SN74LVC1G126DBV")
-		(at 113.03 177.8 0)
+		(at 109.22 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10207,7 +10365,7 @@
 		(dnp no)
 		(uuid "26ac7a23-d9f7-4e8a-a511-c5c63549d54f")
 		(property "Reference" "U3"
-			(at 115.57 173.228 0)
+			(at 111.76 173.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10215,7 +10373,7 @@
 			)
 		)
 		(property "Value" "SN74LVC1G126DBV"
-			(at 121.666 182.118 0)
+			(at 119.126 170.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10223,7 +10381,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 113.03 177.8 0)
+			(at 109.22 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10232,7 +10390,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
-			(at 113.03 177.8 0)
+			(at 109.22 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10241,7 +10399,7 @@
 			)
 		)
 		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS, SOT-23-5"
-			(at 113.03 177.8 0)
+			(at 109.22 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10250,7 +10408,7 @@
 			)
 		)
 		(property "Mfg Part Number" "SN74LVC1G126DBVR"
-			(at 113.03 177.8 0)
+			(at 109.22 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10259,7 +10417,7 @@
 			)
 		)
 		(property "Digikey Part Number" "296-11605-1-ND"
-			(at 113.03 177.8 0)
+			(at 109.22 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10268,7 +10426,7 @@
 			)
 		)
 		(property "LCSC Part Number" "C46472327"
-			(at 113.03 177.8 0)
+			(at 109.22 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10857,7 +11015,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 107.95 165.1 0)
+		(at 104.14 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10865,7 +11023,7 @@
 		(dnp no)
 		(uuid "44039f2e-faf1-4733-898d-240c632e20a9")
 		(property "Reference" "#PWR09"
-			(at 107.95 168.91 0)
+			(at 104.14 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10874,7 +11032,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 107.95 161.036 0)
+			(at 104.14 161.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10882,7 +11040,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 165.1 0)
+			(at 104.14 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10891,7 +11049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 165.1 0)
+			(at 104.14 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10900,7 +11058,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 107.95 165.1 0)
+			(at 104.14 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12533,6 +12691,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 127 177.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "739d0bd7-85bc-4646-8149-6e316dde7f2a")
+		(property "Reference" "R16"
+			(at 129.032 173.482 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 129.286 175.514 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 127 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 127 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C105580"
+			(at 127 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part Number" "RC0603FR-075K1L"
+			(at 127 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "311-5.10KHRCT-ND"
+			(at 127 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8bffe4a-dd03-49a9-a92a-0b61eea58145")
+		)
+		(pin "2"
+			(uuid "619924fe-6e46-4367-9a14-0adfab67cdbc")
+		)
+		(instances
+			(project "CAN_IMU"
+				(path "/2e846557-cee3-4c89-9f29-2507d4a72f82"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 278.13 154.94 0)
 		(unit 1)
@@ -12963,7 +13217,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 152.4 182.88 0)
+		(at 157.48 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -12972,7 +13226,7 @@
 		(fields_autoplaced yes)
 		(uuid "7fa1e51e-e4fb-45f0-bf94-1f942eb1fee0")
 		(property "Reference" "H2"
-			(at 154.94 181.6099 0)
+			(at 160.02 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12981,7 +13235,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 154.94 184.1499 0)
+			(at 160.02 184.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12990,7 +13244,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 152.4 182.88 0)
+			(at 157.48 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12999,7 +13253,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 182.88 0)
+			(at 157.48 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13008,7 +13262,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 152.4 182.88 0)
+			(at 157.48 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13419,7 +13673,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 152.4 187.96 0)
+		(at 157.48 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -13428,7 +13682,7 @@
 		(fields_autoplaced yes)
 		(uuid "92429871-2b44-4e74-b53b-7361af16f102")
 		(property "Reference" "H3"
-			(at 154.94 186.6899 0)
+			(at 160.02 186.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13437,7 +13691,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 154.94 189.2299 0)
+			(at 160.02 189.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13446,7 +13700,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 152.4 187.96 0)
+			(at 157.48 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13455,7 +13709,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 187.96 0)
+			(at 157.48 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13464,7 +13718,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 152.4 187.96 0)
+			(at 157.48 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14279,7 +14533,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 152.4 193.04 0)
+		(at 157.48 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -14288,7 +14542,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3f77ddd-774e-433b-9389-e7bcdf63a824")
 		(property "Reference" "H4"
-			(at 154.94 191.7699 0)
+			(at 160.02 191.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14297,7 +14551,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 154.94 194.3099 0)
+			(at 160.02 194.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14306,7 +14560,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 152.4 193.04 0)
+			(at 157.48 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14315,7 +14569,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 193.04 0)
+			(at 157.48 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14324,7 +14578,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 152.4 193.04 0)
+			(at 157.48 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
