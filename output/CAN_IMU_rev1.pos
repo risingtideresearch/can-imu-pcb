@@ -1,0 +1,57 @@
+### Footprint positions - created on 2026-01-02T08:01:01-0800 ###
+### Printed by KiCad version 9.0.6-9.0.6~ubuntu25.10.1
+## Unit = inches, Angle = deg.
+## Side : All
+# Ref     Val                          Package                                                          PosX       PosY       Rot  Side
+C1        0.1u                         C_0603_1608Metric                                              2.2146    -3.3465  -90.0000  top
+C2        1u                           C_0603_1608Metric                                              2.7953    -2.6860  -90.0000  top
+C3        1u                           C_0603_1608Metric                                              2.4301    -2.5591    0.0000  top
+C4        1u                           C_0603_1608Metric                                              2.6870    -3.0512  180.0000  top
+C5        1u                           C_0603_1608Metric                                              2.5699    -3.0512  180.0000  top
+C6        1u                           C_0603_1608Metric                                              2.3091    -2.6811   90.0000  top
+C7        10uF                         C_0805_2012Metric                                              2.6831    -1.8366  -90.0000  top
+C8        1u                           C_0603_1608Metric                                              1.8307    -2.3425   90.0000  top
+C9        22uF                         C_1206_3216Metric                                              2.5846    -1.9528    0.0000  top
+C10       1u                           C_0603_1608Metric                                              2.9862    -2.7343   90.0000  top
+C11       10uF                         C_0805_2012Metric                                              3.4331    -3.6890   90.0000  top
+C12       1u                           C_0603_1608Metric                                              3.5595    -3.5827  180.0000  top
+C13       1u                           C_0603_1608Metric                                              3.1594    -3.8031  -90.0000  top
+C14       1u                           C_0603_1608Metric                                              3.2736    -3.6386   90.0000  top
+C15       1u                           C_0603_1608Metric                                              3.0118    -3.6713  -90.0000  top
+C16       NFM21PC104R1E3D              NFM21PC_Feedthrough_Cap                                        2.8187    -1.8949  -90.0000  top
+D1        CUS10S30,H3F                 D_SOD-323_HandSoldering                                        1.9094    -3.3465    0.0000  top
+D2        ESD2CANFD24                  SOT-23                                                         2.2416    -2.3406    0.0000  top
+D3        SMAJ17A-13-F                 D_SMA                                                          2.9484    -1.9436   90.0000  top
+J1        USB_C_Receptacle_USB2.0_16P  USB_C_Receptacle_JAE_DX07S024WJ3R400                           2.3634    -3.5669   90.0000  top
+J3        Conn_01x05                   JST_PH_B5B-PH-SM4-TB_1x05-1MP_P2.00mm_Vertical                 2.6610    -2.2421  180.0000  top
+L1        2.2uH                        IND_LQH5BPN2R2NT0L                                             2.3858    -1.8740  -90.0000  top
+L2        MPZ2012S601AT000             L_0805_2012Metric                                              2.8185    -2.0224  -90.0000  top
+R1        5.1k                         R_0603_1608Metric                                              2.1850    -3.6220   90.0000  top
+R2        5.1k                         R_0603_1608Metric                                              2.5591    -3.5167   90.0000  top
+R3        47k                          R_0603_1608Metric                                              2.1791    -3.0669  180.0000  top
+R4        100                          R_0603_1608Metric                                              2.6378    -3.4232  -90.0000  top
+R5        100                          R_0603_1608Metric                                              2.8583    -3.4055  -90.0000  top
+R6        100                          R_0603_1608Metric                                              2.7992    -3.4055  -90.0000  top
+R7        100                          R_0603_1608Metric                                              2.9173    -3.4055  -90.0000  top
+R8        47k                          R_0603_1608Metric                                              1.7648    -2.5197  180.0000  top
+R9        5.1k                         R_0603_1608Metric                                              3.0295    -3.4862   90.0000  top
+R10       5.1k                         R_0603_1608Metric                                              3.0945    -3.4862   90.0000  top
+R11       5.1k                         R_0603_1608Metric                                              3.2244    -3.4862   90.0000  top
+R12       5.1k                         R_0603_1608Metric                                              3.3524    -3.4862   90.0000  top
+R13       5.1k                         R_0603_1608Metric                                              3.1594    -3.4862   90.0000  top
+R14       5.1k                         R_0603_1608Metric                                              3.2894    -3.4862   90.0000  top
+R15       47k                          R_0603_1608Metric                                              2.0846    -2.5492    0.0000  top
+R16       5.1k                         R_0603_1608Metric                                              2.0846    -2.6122  180.0000  top
+SW1       RST                          SW_SPST_PTS810                                                 2.6398    -3.2874    0.0000  top
+SW2       SW_DIP_x02                   SW_DIP_SPSTx02_Slide_6.7x6.64mm_W8.61mm_P2.54mm_LowProfile     2.0453    -2.8819    0.0000  top
+U1        STM32G431CBTx                LQFP-48_7x7mm_P0.5mm                                           2.5527    -2.8051    0.0000  top
+U2        USBLC6-2SC6                  SOT-23-6                                                       2.1161    -3.3465   90.0000  top
+U3        SN74LVC1G126DBV              SOT-23-5                                                       1.9094    -2.5591    0.0000  top
+U4        TCAN3414                     SOIC-8_3.9x4.9mm_P1.27mm                                       2.0079    -2.3425    0.0000  top
+U5        TPS62172DSG                  WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias                2.5709    -1.8346  180.0000  top
+U6        ~                            3DM-CV7                                                        3.1542    -2.8155  -90.0000  top
+U7        ICM-20948                    InvenSense_QFN-24_3x3mm_P0.4mm                                 3.1358    -3.6398    0.0000  top
+U8        MCP1700x-180xxTT             SOT-23                                                         3.5650    -3.6909    0.0000  top
+U9        SN74AUP1T34DCK               SOT-353_SC-70-5                                                3.0650    -3.8071  -90.0000  top
+U10       SN74AUP1T34DCK               SOT-353_SC-70-5                                                3.2972    -3.8051  -90.0000  top
+## End
