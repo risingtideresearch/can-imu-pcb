@@ -3698,6 +3698,19 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C131985"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99c733aa-c3f6-46cf-889d-edc636ca3276")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT*353*")
 		(path "/6a4a12f3-0351-4bff-93b3-4e1b6c80f17e/aa860366-c13d-4eee-b88c-4af4d63ddde9")
 		(sheetname "/Onboard IMU/")
@@ -6994,6 +7007,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e21b5984-093c-4490-bd91-9536bbc5e494")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C131985"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4452ee54-01e3-4d74-a91c-8e26deb1b52b")
 			(effects
 				(font
 					(size 1 1)
@@ -13415,6 +13441,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfg Part Number" "MCP1700T-1802E/TT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "642404d6-2ef9-4399-9295-fcbafb66ece7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "MCP1700T1802ETTCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "126e6cbe-72a4-48d5-a617-c87a04db4d1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C150796"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d003953-e88e-4d88-bbee-3e33e5de682b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)

@@ -2655,6 +2655,33 @@
 				(hide yes)
 			)
 		)
+		(property "Mfg Part Number" "MCP1700T-1802E/TT"
+			(at 73.66 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "MCP1700T1802ETTCT-ND"
+			(at 73.66 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C150796"
+			(at 73.66 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd78270b-292e-4751-b946-152a895fd097")
 		)
@@ -2964,6 +2991,15 @@
 			)
 		)
 		(property "Digikey Part Number" "296-34900-1-ND"
+			(at 167.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C131985"
 			(at 167.64 53.34 0)
 			(effects
 				(font
@@ -3777,6 +3813,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C131985"
+			(at 167.64 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "63c184de-aa7b-4e1f-acef-6789182f1d6f")
 		)
@@ -3978,6 +4023,33 @@
 			)
 		)
 		(property "Description" "InvenSense 9-Axis Motion Sensor, Accelerometer, Gyroscope, Compass, I2C/SPI, QFN-24"
+			(at 125.73 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part Number" "ICM-20948"
+			(at 125.73 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "1428-1123-1-ND"
+			(at 125.73 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C726001"
 			(at 125.73 87.63 0)
 			(effects
 				(font
