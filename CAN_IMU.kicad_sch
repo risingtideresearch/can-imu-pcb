@@ -4551,24 +4551,6 @@
 						)
 					)
 				)
-				(pin input line
-					(at 17.78 -12.7 90)
-					(length 2.54)
-					(name "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(embedded_fonts no)
 		)
@@ -6257,7 +6239,7 @@
 		)
 		(uuid "a7bbd227-d66a-4391-af09-525eaea8fada")
 	)
-	(text "Switcher\n\nExpected max current draw: \n~100mA\n\nDesign should be OK to 500mA, \nand support voltages down to \n3V so it can run off the USB \nas well as the 12V supply"
+	(text "Switcher\n\nExpected max current draw: \n~100mA\n\nDesign should be OK to 500mA, \nand support voltages down to \n4.5V so it can run off the USB \nas well as the 12V supply"
 		(exclude_from_sim no)
 		(at 252.476 25.146 0)
 		(effects
@@ -14755,9 +14737,6 @@
 		)
 		(pin "6"
 			(uuid "1c819d9e-9da1-4aef-9175-b2e465f0ebdd")
-		)
-		(pin "11"
-			(uuid "7a4586a7-bf0a-43e3-ba73-1c2f7cedf228")
 		)
 		(pin "4"
 			(uuid "c72bd8e2-c1a3-4c69-9c7f-af586a7092e2")
