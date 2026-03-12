@@ -18,6 +18,10 @@ some additional parts not included there:
   [PHR-5](https://www.digikey.com/en/products/detail/jst-sales-america-inc/PHR-5/608605) (plus the
   appropriate crimp pins or pre-crimped wires)
 
+## Software
+
+Software for this board can be found in the [can-imu-fw repo](https://github.com/risingtideresearch/can-imu-fw)
+
 # Revision History
 
 ## Rev 1
@@ -27,3 +31,7 @@ First fabricated January 2026.
 ### Errata
 
 - The microstrain IMU connector is backwards (repairable with cut traces and bodge wires)
+
+## Rev 2
+
+Fixes IMU connector pinout. No CPU pin changes, and functionally equivalent to bodged rev1.
