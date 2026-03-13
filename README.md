@@ -5,6 +5,8 @@ device.
 
 It is designed to fit in the Hammond [1554E2GY](https://www.hammfg.com/part/1554E2GY) enclosure.
 
+![CAN IMU](docs/CAN_IMU_photo.jpg?raw=true "CANIMU")
+
 ## Assembly
 
 The BOM can be found [here](output/CAN_IMU_rev1_BOM.csv), and includes most parts, but there are
